@@ -15,6 +15,7 @@ namespace Game1
 		private int hp;
 		private int mp;
 		private string name;
+		private const decimal c = 0.75;
 
 		public int lvl
 		{
@@ -52,12 +53,11 @@ namespace Game1
 			set { index = value; }
 		}*/
 
-		public void a()
+		public void hp_mp()
 		{
-			private decimal smth = 0.75;
 			
-			hp = Math.Round(_str * smth, 0);
-			mp = Math.Round(_inte * smth, 0);
+			hp = Math.Round(_str * c, 0);
+			mp = Math.Round(_inte * c, 0);
 		}
 		
 		public string Name
@@ -84,7 +84,7 @@ namespace Game1
 			dex = _dex;
 			/*hp = Math.Round(_str * 0.75, 0);
 			mp = Math.Round(_inte * 0.75, 0);*/
-			a();
+			hp_mp();
 			name = _name;
 		}
 	}

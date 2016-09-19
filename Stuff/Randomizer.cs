@@ -17,17 +17,17 @@ namespace Game1
 		
 		public int low()		//[1..20]
 		{
-			rand.Next(1, 21);
+			return rand.Next(1, 21);
 		}
 
 		public int medium()		//[20..50]
 		{
-			rand.Next(20, 51);
+			return rand.Next(20, 51);
 		}
 
 		public int high()		//[50..100]
 		{
-			rand.Next(50, 101);
+			return rand.Next(50, 101);
 		}
 
 		public Randomizer(string choice)
