@@ -7,15 +7,17 @@ using System.Threading.Tasks;
 namespace Lipsticgames
 {
 	class LvlScaling
-	{	
+	{
+		private int scale = 5;
+
 		public int LowestLvl (int _lvl)
 		{
-			return _lvl - 5;
+			return _lvl - scale;
 		}
 		
 		public int HighestLvl (int _lvl)
 		{
-			return _lvl + 5;
+			return _lvl + scale;
 		}
 		
 		public int RandomHighLvl (int _lvl)
