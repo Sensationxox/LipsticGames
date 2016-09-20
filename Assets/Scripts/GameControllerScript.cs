@@ -8,7 +8,6 @@ public class GameControllerScript : MonoBehaviour
     public GameObject player; //just to set animations? Do I need this? and I need to store lvl somehow
     public GameObject playerControlls; //to activate players fight moves
     public GameObject ai;
-    //bool turn = true;
 
     void Start ()
     {
