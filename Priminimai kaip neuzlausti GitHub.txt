@@ -1,0 +1,5 @@
+1. keliam tik assetus, o ne visa projekta
+2. nedirbam ties tuo paciu failu vienu metu
+3. dar geriau jei dirbtumem ties skirtingom scenom vienu metu, o veliau viena is musu sumergintu tas scenas
+	PVZ: MortaScene1 ir PaulinaScene1 :D
+4. lets have fun :3
